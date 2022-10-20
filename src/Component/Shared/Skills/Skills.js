@@ -4,7 +4,7 @@ import reactIcon from '../../../Asset/React-icon.png'
 import tailwindCSSIcon from '../../../Asset/Tailwind_CSS_Logo.svg.png'
 const Skills = () => {
     return (
-        <div className="container p-2 mx-auto text-white">
+        <div className="container p-2 mx-auto text-white" id='skills'>
             <h1 className='text-5xl my-10 text-center divider'> {`<SKILLS />`}</h1>
 
             <div className=" grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4">
@@ -15,7 +15,7 @@ const Skills = () => {
                     <div className="stat">
                         <div className=" text-white">FrontEnd Skills</div>
                         <div className="stat-value text-white mb-2">React</div>
-                        <Link to="/project/1" className="btn btn-primary">View my React Portfolio</Link>
+                        <Link to="/projects" className="btn btn-primary">View my React Portfolio</Link>
                     </div>
                 </div>
                 <div className="stats shadow bg-base-300 flex justify-center items-center">

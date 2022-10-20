@@ -12,8 +12,6 @@ const Home = () => {
             <Banner></Banner>
             <Projects></Projects>
             <Skills></Skills>
-            <Contacts></Contacts>
-            <Footer></Footer>
         </>
     );
 };

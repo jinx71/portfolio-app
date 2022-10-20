@@ -1,9 +1,10 @@
 import React from 'react';
+import ProjectPageNav from '../../Shared/ProjectPageNav/ProjectPageNav';
 
 const ProjectWrapper = () => {
     return (
         <div>
-            This is wrapper
+            <ProjectPageNav></ProjectPageNav>
         </div>
     );
 };
