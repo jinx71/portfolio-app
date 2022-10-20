@@ -4,7 +4,7 @@ import banner from '../../../Asset/undraw_launching_re_tomg.svg'
 import Wave from 'react-wavify'
 const Banner = () => {
     return (
-        <div className="text-white hero min-h-screen bg-base-200">
+        <div className="text-white hero">
             <div className="hero-content flex-col lg:flex-row justify-between items-center">
                 <img src={banner} className='w-1/2' />
                 <div className='text-center'>
