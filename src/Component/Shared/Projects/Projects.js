@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
     return (
         <div className="container p-2 mx-auto text-white">
-            <h1 className='text-5xl my-10 text-center'> {`<PROJECTS />`}</h1>
+            <h1 className='text-5xl my-10 text-center divider'> {`<PROJECTS />`}</h1>
             <div className=" grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 gap-4">
                 <div className="card w-96 mx-auto bg-base-600 shadow-2xl border border-gray-600">
                     <figure><img className='' src="https://placeimg.com/400/225/arch" alt="Shoes" /></figure>
